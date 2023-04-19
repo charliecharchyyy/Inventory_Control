@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "417768849061",
+    "firebase_url": "https://my-practice-e5e91-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "my-practice-e5e91",
+    "storage_bucket": "my-practice-e5e91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417768849061:android:9be729ef921359abd3174c",
+        "android_client_info": {
+          "package_name": "my.edu.utar.assignmentproduct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417768849061-ibl88gp142hutllfst3itf40omm4rjvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw0iYzXiVBL57vJNhujoTFje9Y0WwAGBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417768849061-ibl88gp142hutllfst3itf40omm4rjvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417768849061:android:9d8cbd6d4026412fd3174c",
+        "android_client_info": {
+          "package_name": "my.edu.utar.inventorycontrol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417768849061-ibl88gp142hutllfst3itf40omm4rjvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAw0iYzXiVBL57vJNhujoTFje9Y0WwAGBQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "417768849061-ibl88gp142hutllfst3itf40omm4rjvq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

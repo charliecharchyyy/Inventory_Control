@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.edu.utar.inventorycontrol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventoryControl">
+        <activity
+            android:name=".LowStockMain"
+            android:exported="false" />
+        <activity
+            android:name=".Products"
+            android:exported="false" />
+        <activity
+            android:name=".AddProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProduct"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProduct"
+            android:exported="false" />
+        <activity
+            android:name=".ExpiryMain"
+            android:exported="false" />
+        <activity
+            android:name=".TransactionMain"
+            android:exported="false" />
+        <activity
+            android:name=".EditTransaction"
+            android:exported="false" />
+        <activity
+            android:name=".AddTransaction"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

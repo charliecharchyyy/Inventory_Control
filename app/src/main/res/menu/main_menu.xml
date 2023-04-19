@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home2"/>
+
+        <item
+            android:id="@+id/nav_products"
+            android:title="Products"
+            android:icon="@drawable/gift2"/>
+        <item
+            android:id="@+id/nav_transaction"
+            android:title="Transaction"
+            android:icon="@drawable/note1"/>
+        <item
+            android:id="@+id/nav_expiry"
+            android:title="Expiry"
+            android:icon="@drawable/calendar"/>
+        <item
+            android:id="@+id/nav_lowstock"
+            android:title="Low Stock"
+            android:icon="@drawable/down"/>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Profile"
+            android:icon="@drawable/profile"/>
+        <item
+            android:id="@+id/nav_signOut"
+            android:title="Exit"
+            android:icon="@drawable/logout"/>
+
+    </group>
+
+<!--        <item-->
+<!--            android:title="Profile">-->
+<!--            <menu>-->
+<!--                <group android:checkableBehavior="single">-->
+
+
+<!--                <item-->
+<!--                    android:id="@+id/nav_setting"-->
+<!--                    android:title="Setting"-->
+<!--                    android:icon="@drawable/settings"/>-->
+<!--                <item-->
+<!--                    android:id="@+id/nav_logout"-->
+<!--                    android:title="Logout"-->
+<!--                    android:icon="@drawable/logout"/>-->
+<!--                </group>-->
+</menu>

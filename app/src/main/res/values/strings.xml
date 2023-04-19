@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">InventoryControl</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="items">
+        <item>Select category</item>
+        <item>Meat and Fish</item>
+        <item>Dairy</item>
+        <item>Vegetables and Fruits</item>
+        <item>Fresh Produce</item>
+        <item>Baked Goods</item>
+        <item>Snacks</item>
+        <item>Beverages</item>
+        <item>Medicines and Supplements</item>
+        <item>Daily Necessities</item>
+        <item>Other</item>
+    </string-array>
+</resources>

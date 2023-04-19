@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:background="@drawable/alert_bg">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Logout"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Are you sure want yo logout?"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_yes"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_yes"
+                android:text="YES"
+                android:textColor="@color/white"
+                app:backgroundTint="#8BC34A" />
+
+            <Button
+                android:id="@+id/btn_no"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/btn_no"
+                android:text="NO"
+                android:textColor="@color/white"
+                app:backgroundTint="#808080" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
